@@ -12,8 +12,15 @@
         <Folder Include="Model\" />
         <Folder Include="Pages\Students\" />
         <Folder Include="Model\SchoolViewModels\" />
+        <Folder Include="Pages\Courses\" />
+        <Folder Include="PagesCourses\" />
+        <Folder Include="Pages\Instructors\" />
+        <Folder Include="PagesInstructors\" />
     </ItemGroup>
     <ItemGroup>
         <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0-preview1-final" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Remove="Pages\Courses\Delete.cshtml" />
     </ItemGroup>
 </Project>
