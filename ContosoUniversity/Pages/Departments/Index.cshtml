@@ -5,7 +5,7 @@
 }
 <h2>Departments</h2>
 <p>
-    <a asp-page="Create">Create New</a>
+    <a  class="link-button-small" asp-page="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -45,7 +45,7 @@
                     @Html.DisplayFor(modelItem => item.Administrator.FullName)
                 </td>
                 <td>
-                    @item.RowVersion[1]
+
                 </td>
                 <td>
                     <a asp-page="./Edit" asp-route-id="@item.DepartmentID">Edit</a> |
